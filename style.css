@@ -1,0 +1,102 @@
+Protyasha Roy
+.quote-section{
+    margin: 300px;
+    width: 100%;
+    height: 50em;
+    background-color: rgb(236, 139, 20);
+  }
+
+  .blockquote{   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width:100%;
+    height: 5em; 
+    display: flex; 
+    justify-content: center;  
+    align-items: center;
+    font-family: 'Dancing Script', cursive;  
+    border-left: 10px solid rgb(77, 77, 247);  
+    border-top: 6px solid rgb(77, 77, 247);  
+    background-color: rgb(185, 227, 240);
+    
+  }
+ 
+
+  .color-btn{
+    border-radius: 50%;
+      margin-left: auto;
+      border: none;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;  
+      cursor: pointer; 
+      display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+      
+.green-btn{
+    background-color: #4CAF50; 
+}
+
+.red-btn{
+          background-color: red;
+      }
+.yellow-btn{
+          background-color: yellow;
+      }
+      .blue-btn{
+          background-color: blue;
+          
+      }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.button {
+  background-color: #7762ee;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button4 {
+    border-radius: 12px;
+    width: 50%;
+    font-size: 24px;
+}
+.button4:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button2 {
+  
+    border-radius: 16px;
+    width: 12%;
+    font-size: 18px;
+}
+textarea {
+  resize: none;
+}
+
