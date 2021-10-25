@@ -1,8 +1,8 @@
 
 #  JavaScript Programming 
 
-[Live site](https://sumaiya-nawsheen.github.io/HTML-CSS-portfolio--CSE391/index.html)
-## Part 1
+[Live site](https://sumaiya-nawsheen.github.io/CSE391-JavaScript-Programming-/)
+<!-- ## Part 1
 * Your page should have at least two different parts, one containing some personal information 
 (like your name, where you're from, etc.), and another set of links. You should include both 
 internal links (that jump to locations within the info page) and external links that would lead to 
@@ -45,4 +45,4 @@ standards. In particular, for maximum points here, your webpage should satisfy t
 XHTML 1.0 (or 1.1) standards (including a proper Document Type Declaration in the HTML 
 file). You should pass it through tidy and validator (links are below). Please contact me for such 
 evaluation only if it is needed. 
-
+ -->

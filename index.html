@@ -1,114 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Javascript Programming</title>
 </head>
 
 
 <body>
-
- 
-
     <!-- Part 1 - 1.2 Hero Converter -->
     <section style="text-align: center; background-color: aquamarine; height: 20em;">
-<h2>Weight Converter</h2>
-<p style="margin:25px;">Type a value in the input field to convert the value from Pounds(lb) to Kilograms(kg) or Kilograms(kg) to Pounds(lb):</p>
-<div>
-<p>
-    <label>Convert</label>
-    <input type="text" id="input" onchange="convert()"></input>
-    <select id="activitySelector">
-        <option value="choose">Choose </option>
-        <option value="lb to kg" id="kg">lb to kg</option>
-        <option value="kg to lb" id="lb">kg to lb</option>
-    </select>
-    <button id="show">Go</button>
-    <input type="text" id="output">
+        <h2>Weight Converter</h2>
+        <p style="margin:25px;">Type a value in the input field to convert the value from Pounds(lb) to Kilograms(kg) or
+            Kilograms(kg) to Pounds(lb):</p>
+        <div>
+            <p>
+                <label>Convert</label>
+                <input type="text" id="input" onchange="convert()"></input>
+                <select id="activitySelector">
+                    <option value="choose">Choose </option>
+                    <option value="lb to kg" id="kg">lb to kg</option>
+                    <option value="kg to lb" id="lb">kg to lb</option>
+                </select>
+                <button id="show">Go</button>
+                <input type="text" id="output">
 
-</p>
-</div>
+            </p>
+        </div>
     </section>
 
-<!-- Part 2 -->
-<section style="text-align: center; background-color: skyblue; height: 40em;">
-    <h2>Part 2</h2>
+    <!-- Part 2 -->
+    <section style="text-align: center; background-color: skyblue; height: 40em;">
+        <h2>Part 2</h2>
 
-<div class="grid-container">
-    <div class="grid-item">Input Series of Number:</div>
-    <div class="grid-item">
-        <input name="box1" type="text" id="box1" />
-    </div>
-    <div class="grid-item">Max:</div>
-    <div class="grid-item">
-        <div id="max"> </div>
-    </div>
-    <div class="grid-item">Min:</div>
-    <div class="grid-item">
-        <div id="min"> </div>
-    </div>
-    <div class="grid-item">Sum:</div>
-    <div class="grid-item">
-        <div id="sum"> </div>
-    </div>
-    <div class="grid-item">Average :</div>
-    <div class="grid-item">
-        <div id="avg"> </div>
-    </div>
-    <div class="grid-item">Reverse Order :</div>
-    <div class="grid-item">
-        <div id="reverse"> </div>
-    </div>
-</div>
-<button class="button button4" onclick="calculate()">calculate</button>
-</section>
+        <div class="grid-container">
+            <div class="grid-item">Input Series of Number:</div>
+            <div class="grid-item">
+                <input name="box1" type="text" id="box1" />
+            </div>
+            <div class="grid-item">Max:</div>
+            <div class="grid-item">
+                <div id="max"> </div>
+            </div>
+            <div class="grid-item">Min:</div>
+            <div class="grid-item">
+                <div id="min"> </div>
+            </div>
+            <div class="grid-item">Sum:</div>
+            <div class="grid-item">
+                <div id="sum"> </div>
+            </div>
+            <div class="grid-item">Average :</div>
+            <div class="grid-item">
+                <div id="avg"> </div>
+            </div>
+            <div class="grid-item">Reverse Order :</div>
+            <div class="grid-item">
+                <div id="reverse"> </div>
+            </div>
+        </div>
+        <button class="button button4" onclick="calculate()">calculate</button>
+    </section>
 
-<!-- part 3 -->
-<section style="background-color: rgb(240, 172, 219); height: 45em; margin: 4px;">
-    <h2 style="text-align: center;">Part 3</h2>
-   <div style="height: 25em; border: 1px solid black; background-color: gray;">
-<h1 style="font-size: 50px;">Magic!</h1>
+    <!-- part 3 -->
+    <section style="background-color: rgb(240, 172, 219); height: 45em; margin: 4px;">
+        <h2 style="text-align: center;">Part 3</h2>
+        <div style="height: 25em; border: 1px solid black; background-color: gray;">
+            <h1 style="font-size: 50px;">Magic!</h1>
 
-<textarea style="margin:4em;border: 5px dotted goldenrod;" id="demo" name="w3review" rows="20" cols="150">
+            <textarea style="margin:4em;border: 5px dotted goldenrod;" id="demo" name="w3review" rows="20" cols="150">
   </textarea>
 
-<button class="button button2"  id="clear">Clear All</button>
-<button class="button button2"  onclick="capitalize()">Capitalize</button>
-<button class="button button2"  id="sort">Sort</button>
-<!-- <button class="button button2"  id="reverse">Reverse</button> -->
-<button class="button button2"  id="stripBlank">Strip Blank</button>
-<button class="button button2"  id="addNumbers">Add Numbers</button>
-<button class="button button2"  id="shuffle">Shuffle</button>
-<button class="button button2" id="reverse">Reverse</button>
-   </div>
-
-
-
-
-
-    
-   
+            <button class="button button2" id="clear">Clear All</button>
+            <button class="button button2" onclick="capitalize()">Capitalize</button>
+            <button class="button button2" id="sort">Sort</button>
+            <button class="button button2" id="stripBlank">Strip Blank</button>
+            <button class="button button2" id="addNumbers">Add Numbers</button>
+            <button class="button button2" id="shuffle">Shuffle</button>
+        </div>
     </section>
-<!-- Part 1 - 1.1  Quote Box -->
-<div class="quote-section">
-    <div id="quote" class="blockquote">
-        "Happiness is when what you think, what you say, and what you do are in harmony." — Dalai Lama
+
+
+    <!-- Part 1 - 1.1  Quote Box -->
+    <div class="quote-section">
+        <div id="quote" class="blockquote">
+            "Happiness is when what you think, what you say, and what you do are in harmony." — Dalai Lama
+
+        </div>
+        <div class="color-btn">
+            <button class="color-btn red-btn" onclick="ChangeRed()"></button>
+            <button class="color-btn blue-btn" onclick="ChangeBlue()"></button>
+            <button class="color-btn yellow-btn" onclick="ChangeYellow()"></button>
+            <button class="color-btn green-btn" onclick="ChangeGreen()"></button>
+        </div>
 
     </div>
-    <div class="color-btn">
-        <button class="color-btn red-btn" onclick="ChangeRed()"></button>
-        <button class="color-btn blue-btn" onclick="ChangeBlue()"></button>
-        <button class="color-btn yellow-btn" onclick="ChangeYellow()"></button>
-        <button class="color-btn green-btn" onclick="ChangeGreen()"></button>
-    </div>
-
-</div>
 
     <!-- footer -->
-    <footer style="text-align: center; background-color: indianred;height: 3em; display: flex; align-items: center; justify-content: center;" class="copyright">Sumaiya Nawsheen, 2021 &copy; all rights are reserved.</footer>
-<script src="./function.js"></script>
+    <footer
+        style="text-align: center; background-color: indianred;height: 3em; display: flex; align-items: center; justify-content: center;"
+        class="copyright">Sumaiya Nawsheen, 2021 &copy; all rights are reserved.</footer>
+    <script src="./function.js"></script>
 </body>
+
 </html>

@@ -145,7 +145,7 @@ function capitalize() {
 // sort
 const inputarea2 = document.querySelector('#sort');
 inputarea2.addEventListener('click', function () {
-        textarea.value = textarea.value.split('').sort().join('').trim();
+    textarea.value = textarea.value.split('').sort().join('').trim();
 }, false);
 
 // Reverse
@@ -164,7 +164,7 @@ inputarea4.addEventListener('click', function () {
 // addNumbers
 const inputarea5 = document.querySelector('#addNumbers');
 inputarea5.addEventListener('click', function () {
-     textarea.value = textarea.value.split('\n').map((line, index) => `${index + 1}. ${line}`).join('\n');
+    textarea.value = textarea.value.split('\n').map((line, index) => `${index + 1}. ${line}`).join('\n');
 }, false);
 
 // shuffle
